@@ -17,3 +17,30 @@
 .dropdown-content {
     position: static;
 }
+
+/* Tablet Styles */
+@media (max-width: 1100px) {
+    .dropdown-button {
+        padding: 10px 14px;
+        border-radius: 9px;
+        gap: 8px;
+        font-size: 13px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .dropdown-button {
+        width: 100%;
+        padding: 18px 20px;
+        border-radius: 0;
+        gap: 12px;
+        font-size: 16px;
+        justify-content: flex-start;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
