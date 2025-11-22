@@ -1,2 +1,2 @@
 # Rocart-Demo
-A demo task to develop the responsive to desktop only version of the Rocart website provided a Figma design to demonstrate my web dev skills.
+A demo task to develop the fully responsive version of the Rocart website home page hero sectoin provided a Figma design to demonstrate my web dev skills.
