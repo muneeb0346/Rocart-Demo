@@ -6,7 +6,9 @@
   --text: #C8C8C8;
   --black2: #0F0F0F;
   --white: #FFFFFF;
-  --gradient-green: linear-gradient(180deg, #3DFF88 0%, #259951 100%)
+  --gradient-green: linear-gradient(180deg, #3DFF88 0%, #259951 100%);
+  --gradient-green-2: linear-gradient(90deg, #3DFF88 0%, #D2FFE3 100%);
+  --gradient-green-2-vanishing: linear-gradient(90deg, #3DFF88 0%, rgb(210, 255, 227, 0.01) 100%);
 }
 
 body {
@@ -16,7 +18,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 main {
@@ -26,4 +28,26 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.text-gradient-green {
+  background: var(--gradient-green-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
 }

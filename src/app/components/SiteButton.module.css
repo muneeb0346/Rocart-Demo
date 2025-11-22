@@ -1,6 +1,5 @@
 .sitebutton {
     background: var(--white);
-    padding-bottom: 1px;
     display: flex;
     align-items: stretch;
     min-width: 0px;
@@ -9,16 +8,19 @@
 
 .sitebutton.small {
     border-radius: 11px;
+    padding-bottom: 1px;
 }
 
 .sitebutton.big {
     border-radius: 19px;
+    padding-bottom: 2px;
 }
 
 .inner {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 100%;
     font-weight: 600;
     color: var(--white);
     background: var(--gradient-green);
@@ -27,13 +29,13 @@
 .inner.small {
     padding: 8px 17px 8px 10px;
     gap: 12px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 11px;
 }
 
 .inner.big {
     padding: 13px 20px 13px 18px;
     gap: 14px;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 19px;
 }
