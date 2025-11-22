@@ -1,0 +1,32 @@
+.header {
+    height: 103px;
+    width: 100%;
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--sec-width);
+    max-width: var(--max-sec-width);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}

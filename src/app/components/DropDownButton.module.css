@@ -1,0 +1,19 @@
+.wrapper {
+    position: relative;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 17px;
+    border-radius: 11px;
+    background: var(--black2);
+    font-weight: 600;
+    color: var(--white);
+    gap: 10px;
+}
+
+.dropdown-content {
+    position: static;
+}

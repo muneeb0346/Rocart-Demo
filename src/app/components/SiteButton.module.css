@@ -1,0 +1,39 @@
+.sitebutton {
+    background: var(--white);
+    padding-bottom: 1px;
+    display: flex;
+    align-items: stretch;
+    min-width: 0px;
+    overflow: hidden;
+}
+
+.sitebutton.small {
+    border-radius: 11px;
+}
+
+.sitebutton.big {
+    border-radius: 19px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--white);
+    background: var(--gradient-green);
+}
+
+.inner.small {
+    padding: 8px 17px 8px 10px;
+    gap: 12px;
+    font-size: 16px;
+    border-radius: 11px;
+}
+
+.inner.big {
+    padding: 13px 20px 13px 18px;
+    gap: 14px;
+    font-size: 14px;
+    border-radius: 19px;
+}
